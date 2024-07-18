@@ -1,1 +1,1 @@
-# holbertonschool-web front end
+holbertonschool-web front end
