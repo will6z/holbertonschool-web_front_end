@@ -1,3 +1,4 @@
+/* Define custom color variables */
 :root {
     --color-primary: #d73953;
     --color-black: #090909;
@@ -5,5 +6,25 @@
     --color-light-grey: #f3f3f3;
     --color-dark-grey: #353535;
     --text-color: var(--color-black);
+}
+
+/* Use text-color for the body */
+body {
+    color: var(--text-color);
+}
+
+/* Use text-color for anchor elements */
+a {
+    color: var(--text-color);
+}
+
+/* Use color-primary for .card-category */
+.card-category {
+    color: var(--color-primary);
+}
+
+/* Use color-primary for .section-tagline */
+.section-tagline {
+    color: var(--color-primary);
 }
 
